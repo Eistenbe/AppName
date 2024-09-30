@@ -11,6 +11,8 @@ const card_cidade = (nome, uf)=>{
     );
 }
 
+export default card_cidade;
+
 const styles = StyleSheet.create({
     card: {
         width: '100%',

@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 import dados from './service/dados'; 
+import card_cidade from './component/card_cidade';
 
 export default function App() {
   console.log(dados.state, dados.cities);
